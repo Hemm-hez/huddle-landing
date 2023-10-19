@@ -1,0 +1,94 @@
+.bgimage{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+   height: 600px;
+   background-color: aliceblue;
+}
+
+.navimage{
+    width: 170px;  
+}
+.buttn{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+.buttn:hover{
+    background-color: #FE52C0;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5em;
+    padding-top: 30px;
+
+}
+
+@media (max-width:700px) {
+
+    .navbar{
+        margin: 20px 10px;
+    }
+.navimage{
+    width: 100px;}
+    .buttn{
+        width: 100px; 
+    }
+    .section{
+        text-align: center;
+        flex-wrap: wrap;
+        /* height: 70; */
+    }
+    .bgimage{
+        height: 50%;
+    }
+    p{
+        padding: 0px 35px;
+    }
+}
+h3{
+    font-size: 2em;
+}
+.section{
+    display: flex;
+    gap: 3em;
+    justify-content: space-around;
+    margin: 0px  10px; 
+    position: relative; 
+}
+.butin{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FE52C0;
+    color: white;
+    width: 180px;
+    font-weight: bold;
+    
+}
+.butin:hover{
+    background-color: #2979FF;
+}
+.mockup{
+    max-width: 100%;
+    max-width: 100%;
+    width: 640px;
+    padding: 10px 0px;
+    display: flex;
+    margin-top: 20px;
+    /* position: absolute; */
+    
+}
+.textall{
+    width: 440px;
+    align-self: center;
+}

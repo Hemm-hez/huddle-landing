@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&display=swap');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css'); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+
+body{
+    height: 100vh;
+   
+    /* background-image: url(); */
+    font-family: 'Gabarito', sans-serif;
+}

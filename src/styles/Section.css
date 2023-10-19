@@ -1,0 +1,109 @@
+
+.textimg{
+    max-width: 100%;
+    width: 250px; 
+    padding: 20px 0px; 
+}
+/* section{
+    height: 1vh;
+} */
+.growsection{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 40%;
+    border: 2px;
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgb(231, 221, 221);
+    border-radius: 15px;
+    margin-top: 2em;
+    padding: 1em 25px;
+}
+.anotherimg{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px;
+    gap: 10px;
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    box-shadow: 0 2px 5px  rgb(231, 221, 221);
+    border-radius: 15px;
+    margin-top: 2em; 
+    padding: 2em 25px;
+}
+.belowimg{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 2px;
+    gap: 10px;
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgb(231, 221, 221);
+    border-radius: 15px;
+    margin-top: 2em;
+    padding: 2em 25px;
+}
+h4{
+    font-size: large;
+}
+
+Section{
+    
+    margin: 5em 5em 10em 5em;
+}
+/* @media(max-width:1366px){
+    section{
+        margin: 6em 10px;
+       
+    }
+    .textonly{
+        text-align: center;
+        
+      
+    }
+    .growsection{
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .anotherimg{
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .belowimg{
+        justify-content: space-around;
+        gap: 10px;  
+    }
+} */
+@media (max-width:700px) {
+    section{
+        margin:6em 10px;
+       
+    }
+    .textonly{
+        text-align: center;
+        padding: 0px;
+      
+    }
+    .growsection{
+        justify-content: space-around;
+        gap: 10px;
+       
+     
+    }
+    .anotherimg{
+        justify-content: center;
+        gap: 10px;
+    }
+    .belowimg{
+        justify-content: space-around;
+        gap: 1em;  
+    }
+}
+.textonly{
+    width: 400px;
+    align-self: center;
+}
