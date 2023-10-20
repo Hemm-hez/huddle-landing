@@ -3,7 +3,6 @@
     color: black;
     text-align: center;
     margin: auto;
-
     border-radius: 20px;
     width: 50vw;
     min-width: 30%;
@@ -24,7 +23,7 @@
 }
 
 .forbackground{
-    background-color: white;
+    background-color: aliceblue;
     position: relative;
 }
 .butn:hover{
@@ -66,7 +65,7 @@
     display: flex;
     align-self: center;
    justify-content: space-around;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
    padding-top: 10em;
    padding-left: 10px;
    padding-right: 10px;
@@ -93,9 +92,11 @@ div i{
 
 .anchor{
     display: grid;
+    line-height: 20px;
 }
 .anctag{
     display: grid;
+    line-height: 20px;
 }
 .footimage{
     max-width: 100%;
