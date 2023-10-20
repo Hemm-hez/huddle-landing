@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
       
       <div className="row section">
-        <div className="col-md-4 textall order-2">
+        <div className="col-md-4 textall">
           <h3>Build The Community <br /> Your Fans Will Love</h3>
           <p>
             Huddle re-imagines the way we build communities. You have a voice,
