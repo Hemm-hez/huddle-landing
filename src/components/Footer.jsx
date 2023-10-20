@@ -33,12 +33,10 @@ const Footer = () => {
             <a href="#">What We Do</a>
             <a href="#">FAQ</a>
         </div>
-        <div></div>
         <div className="anctag">
             <a href="#">Career </a>
             <a href="#">Blog</a>
            <a href="#">Contact Us</a>
-   
         </div>
         <div className="icon">
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
